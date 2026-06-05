@@ -25,10 +25,10 @@ This GeoTIFF contains LandTrendr-derived forest disturbance metrics for baseline
 
 | Band | Metric | Description |
 |---|---|---|
-| 1 | Disturbance year | Year when the dominant disturbance segment started |
-| 2 | Disturbance magnitude | Spectral magnitude of the dominant disturbance event |
-| 3 | Disturbance duration | Duration of the dominant disturbance segment, in years |
-| 4 | Disturbance rate | Disturbance magnitude divided by disturbance duration |
+| yod | Disturbance year | Year when the dominant disturbance segment started |
+| mag | Disturbance magnitude | Spectral magnitude of the dominant disturbance event |
+| dur | Disturbance duration | Duration of the dominant disturbance segment, in years |
+| rate | Disturbance rate | Disturbance magnitude divided by disturbance duration |
 
 Disturbance was identified as the dominant negative change segment in the fitted Landsat spectral trajectory.
 
@@ -38,10 +38,10 @@ This GeoTIFF contains LandTrendr-derived forest recovery metrics for baseline fo
 
 | Band | Metric | Description |
 |---|---|---|
-| 1 | Recovery year | Year when the dominant recovery segment started |
-| 2 | Recovery magnitude | Spectral magnitude of the dominant recovery event |
-| 3 | Recovery duration | Duration of the dominant recovery segment, in years |
-| 4 | Recovery rate | Recovery magnitude divided by recovery duration |
+| yod | Recovery year | Year when the dominant recovery segment started |
+| mag | Recovery magnitude | Spectral magnitude of the dominant recovery event |
+| dur | Recovery duration | Duration of the dominant recovery segment, in years |
+| rate | Recovery rate | Recovery magnitude divided by recovery duration |
 
 Recovery was identified as the dominant positive change segment in the fitted Landsat spectral trajectory.
 
