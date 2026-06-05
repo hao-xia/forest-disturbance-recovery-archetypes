@@ -1,12 +1,8 @@
 # Forest Disturbance-Recovery Archetypes
 
-This repository provides GeoTIFF datasets used to map and characterize forest disturbance and recovery dynamics in Kaihua County, Zhejiang Province, China. The datasets were derived from dense Landsat time series using the LandTrendr algorithm and were used to compare forest disturbance-recovery pathways inside and outside protected areas.
+This repository provides GeoTIFF datasets used to map and characterize forest disturbance and recovery dynamics in Kaihua County, Zhejiang Province, China. The datasets were derived from dense Landsat time series using the LandTrendr algorithm (https://emapr.github.io/LT-GEE/index.html) and were used to compare forest disturbance-recovery archetypes inside and outside protected areas.
 
 The repository supports a trajectory-based interpretation of forest change. Instead of describing forest dynamics only as binary loss or gain, the datasets summarize when disturbance and recovery occurred, how strong these changes were, how long they lasted, and how rapidly they unfolded. These trajectory metrics were further integrated into disturbance-recovery archetypes that represent recurring forest change pathways.
-
-## Study Area
-
-Kaihua County is located in the subtropical forest region of eastern China. The county contains extensive forest cover, multiple protected areas, and important mid-subtropical evergreen broad-leaved forest ecosystems. These conditions make it a suitable landscape for examining long-term forest disturbance, recovery, and protected-area associated patterns.
 
 ## Repository Structure
 
@@ -65,32 +61,6 @@ This GeoTIFF contains the final disturbance-recovery archetype classification.
 
 The archetypes were identified by clustering disturbance and recovery trajectory metrics. They summarize recurring combinations of disturbance and recovery timing, magnitude, duration, and rate.
 
-## Conceptual Workflow
-
-The datasets were produced using four main steps:
-
-1. **Baseline forest masking**  
-   A baseline forest mask was used to restrict the analysis to pixels classified as forest at the beginning of the monitoring period.
-
-2. **Trajectory segmentation**  
-   Dense Landsat time series were analyzed with LandTrendr to fit annual spectral trajectories and identify disturbance and recovery segments.
-
-3. **Metric extraction**  
-   For each forest pixel, the dominant disturbance and recovery segments were summarized using year, magnitude, duration, and rate.
-
-4. **Archetype classification**  
-   Disturbance and recovery metrics were integrated through clustering to identify recurring disturbance-recovery archetypes.
-
-## Suggested Uses
-
-These datasets can be used to:
-
-- map the timing and intensity of forest disturbance and recovery;
-- compare forest change inside and outside protected areas;
-- identify recovery-dominated, disturbance-dominated, and turnover pathways;
-- support forest restoration prioritization;
-- support protected-area monitoring and adaptive forest management;
-- examine spatial patterns of forest disturbance-recovery dynamics.
 
 ## Important Notes
 
@@ -104,7 +74,7 @@ These datasets can be used to:
 
 If you use these datasets, please cite the associated manuscript:
 
-Xia, H., Yuan, S., Yang, L., Mei, Z., and Huang, Y. An Integrated Trajectory-Based Framework for Characterizing Forest Disturbance-Recovery Archetypes Across Protection Contexts: Implications for Forest Conservation.
+Xia, H., Yuan, S., Yang, L., Mei, Z., and Huang, Y. An Integrated Trajectory-Based Framework for Characterizing Forest Disturbance-Recovery Archetypes Across Protection Contexts: Implications for Forest Conservation. Under Review.
 
 ## Contact
 
