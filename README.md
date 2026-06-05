@@ -68,7 +68,6 @@ The archetypes were identified by clustering disturbance and recovery trajectory
 - Disturbance and recovery metrics should be interpreted as remote-sensing trajectory indicators, not direct measurements of biomass, forest structure, or biodiversity.
 - Archetype classes summarize recurring trajectory patterns and should not be interpreted as universal ecological categories.
 - Users should check projection, resolution, NoData values, and band order before analysis.
-- Each GeoTIFF file is smaller than 100 MB and can be stored in a standard GitHub repository without Git LFS.
 
 ## Citation
 
@@ -78,6 +77,6 @@ Xia, H., Yuan, S., Yang, L., Mei, Z., and Huang, Y. An Integrated Trajectory-Bas
 
 ## Contact
 
-Hao Xia  
-University of Hamburg  
-Email: xiahaoland@gmail.com
+Dr. Hao Xia  
+Earth and Society Research Hub (ESRAH), University of Hamburg  
+Email: xiahaoland@gmail.com / hao.xia@uni-hamburg.de
