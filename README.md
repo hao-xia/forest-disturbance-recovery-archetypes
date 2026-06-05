@@ -49,15 +49,15 @@ Recovery was identified as the dominant positive change segment in the fitted La
 
 This GeoTIFF contains the final disturbance-recovery archetype classification.
 
-| Value | Class |
-|---|---|
-| 0 | Stable forest |
-| 1 | Intense recovery |
-| 2 | Legacy disturbance |
-| 3 | Moderate turnover |
-| 4 | Moderate recovery |
-| 5 | Persistent recovery |
-| 6 | Intense turnover |
+| Value | Archetype | Description |
+|---|---|---|
+| 0 | Stable forest | Baseline forest pixels with no detected dominant disturbance or recovery signal during the study period. |
+| 1 | Intense recovery | Recovery-dominated trajectory with high recovery magnitude and rapid canopy regrowth, with little or no evident dominant disturbance signal. |
+| 2 | Legacy disturbance | Disturbance-dominated trajectory with a detected disturbance event but no evident subsequent recovery signal. |
+| 3 | Moderate turnover | Coupled disturbance-recovery trajectory with both disturbance and recovery signals, generally showing moderate disturbance and gradual recovery. |
+| 4 | Moderate recovery | Recovery-dominated trajectory with moderate recovery magnitude and intermediate recovery duration. |
+| 5 | Persistent recovery | Recovery-dominated trajectory characterized by early recovery onset, long recovery duration, and gradual sustained regrowth. |
+| 6 | Intense turnover | Coupled disturbance-recovery trajectory with high disturbance magnitude followed by strong and relatively rapid recovery. |
 
 The archetypes were identified by clustering disturbance and recovery trajectory metrics. They summarize recurring combinations of disturbance and recovery timing, magnitude, duration, and rate.
 
